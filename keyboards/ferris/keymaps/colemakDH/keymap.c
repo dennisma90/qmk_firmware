@@ -77,7 +77,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_NAVG] = LAYOUT(
-       KC_PGUP,    KC_HOME,      KC_UP,     KC_END,      KC_INS,            ____,       ____,    ____,    ____, ____,
+       KC_PGUP,    KC_HOME,      KC_UP,     KC_END,      KC_INS,           DT_UP,    DT_DOWN,    DT_PRNT,    ____, ____,
        KC_PGDN,    KC_LEFT,    KC_DOWN,    KC_RGHT,     KC_CAPS,          KC_APP,    KC_LSFT, KC_LCTL, KC_LALT, KC_LWIN,
     LCTL(KC_Z),  LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_Y),            ____, SGUI(KC_S),    ____, KC_RALT,    ____,
                                         KC_BSPC, KC_ENT,              ____, ____

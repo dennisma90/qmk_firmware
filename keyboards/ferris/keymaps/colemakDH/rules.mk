@@ -18,6 +18,7 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 UNICODE_ENABLE = yes        # Unicode
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes        # Use shared split_common code
-COMBO_ENABLE = yes
+DYNAMIC_TAPPING_TERM_ENABLE = yes # Enable changing tapping term on the fly
+COMBO_ENABLE = yes			# Enable key combos
 LAYOUTS = split_3x5_2
 

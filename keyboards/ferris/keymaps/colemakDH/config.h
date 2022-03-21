@@ -74,8 +74,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Number of combos used
 #define COMBO_COUNT 2
 
-// Increasing time for tap vs hold
+// Settings for tapping
 #define TAPPING_TERM 300
+#define DYNAMIC_TAPPING_TERM_INCREMENT 10
 
 /* Top left key on left half */
 #define BOOTMAGIC_LITE_ROW    0
